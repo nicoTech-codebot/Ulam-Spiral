@@ -3,7 +3,6 @@
 #include <stdbool.h>
 #include <math.h>
 
-// Function prototypes
 void printToFile(int sideSize, int numbersOrSpiral);
 void printToConsole(int sideSize, int numbersOrSpiral);
 void createArray(int sideSize);
@@ -12,7 +11,6 @@ void primesSpiral(int sideSize);
 
 #define MAX_SIDE_SIZE 301 //Can be modified (chosen for visibility in .txt file)
 
-// Array of numbers and characters for the spiral declared as global vars (accessed from multiple functions)
 int array[MAX_SIDE_SIZE][MAX_SIDE_SIZE];
 char spiral[MAX_SIDE_SIZE][MAX_SIDE_SIZE];
 
